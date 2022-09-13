@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(250, 212, 218);
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.heading p{
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(142, 0, 24);
+}
+.heading span{
+    color: red;
+}
+
+
+.search{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+form input{
+    width: 100%;
+    padding: 7px 20px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 7px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+input:focus{
+    border: 1px solid rgb(142, 0, 24);
+}
+
+.search-result{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.search-result p{
+    background-color: rgba(42, 191, 255, 0.308);
+    padding: 8px 20px;
+    border-radius: 7px;
+}
+.result{
+    display: none;
+}
